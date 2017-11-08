@@ -57,3 +57,26 @@ typings/
 # dotenv environment variables file
 .env
 
+xpacks/
+package/
+
+# Windows
+Thumbs.db
+
+# macOS
+.DS_Store
+
+# Eclipse
+.settings/
+Debug/
+Release/
+test-*/
+build/
+
+# Visual Studio Code
+.vscode/
+
+# end
+
+package-lock.json
+
