@@ -1,8 +1,13 @@
+[![npm (scoped)](https://img.shields.io/npm/v/@gnu-mcu-eclipse/riscv-none-gcc.svg)](https://www.npmjs.com/package/@gnu-mcu-eclipse/riscv-none-gcc) 
+[![license](https://img.shields.io/github/license/gnu-mcu-eclipse/riscv-none-gcc-xpack.svg)](https://github.com/gnu-mcu-eclipse/riscv-none-gcc-xpack/blob/xpack/LICENSE) 
+[![Standard](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com/)
+
+
 ## GNU MCU Eclipse RISC-V Embedded GCC binaries
 
 This xPack installs the platform specific binaries for the RISC-V Embedded toolchain.
 
-This project is open source and it is publicly available from GitHub [gnu-mcu-eclipse/riscv-none-gcc-xpack](https://github.com/gnu-mcu-eclipse/riscv-none-gcc-xpack).
+This project is open source and it is publicly available from [GitHub](https://github.com/gnu-mcu-eclipse/riscv-none-gcc-xpack).
 
 ## Prerequisites
 
@@ -46,7 +51,7 @@ $ git clone https://github.com/nu-mcu-eclipse/riscv-none-gcc-xpack.git riscv-non
 
 ### Toolchain binaries
 
-The binaries are downloaded from the [gnu-mcu-eclipse/riscv-none-gcc](https://github.com/gnu-mcu-eclipse/riscv-none-gcc) [releases](https://github.com/gnu-mcu-eclipse/riscv-none-gcc/releases).
+The binaries are downloaded from the [gnu-mcu-eclipse/riscv-none-gcc](https://github.com/gnu-mcu-eclipse/riscv-none-gcc) [releases](https://github.com/gnu-mcu-eclipse/riscv-none-gcc/releases) project.
 
 ### Standard compliance
 
