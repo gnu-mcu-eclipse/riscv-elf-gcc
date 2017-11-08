@@ -1,6 +1,6 @@
 {
   "name": "@gnu-mcu-eclipse/riscv-none-gcc",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An xPack that installs the binary files for GNU MCU Eclipse RISC-V GCC",
   "main": "",
   "scripts": {
