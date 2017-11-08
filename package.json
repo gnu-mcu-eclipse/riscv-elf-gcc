@@ -4,6 +4,8 @@
   "description": "An xPack that installs the binary files for GNU MCU Eclipse RISC-V GCC",
   "main": "",
   "scripts": {
+    "prepublishOnly": "standard && npm run test-tap -s",
+    "fix": "standard --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -29,5 +31,14 @@
   "homepage": "https://github.com/gnu-mcu-eclipse/riscv-none-gcc-xpack",
   "config": {},
   "dependencies": {},
+  "devDependencies": {
+    "standard": "~10.0.3"
+  },
+  "peerDependencies": {},
+  "bundledDependencies": [],
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">7.7.0"
+  },
   "xpack": {}
 }
