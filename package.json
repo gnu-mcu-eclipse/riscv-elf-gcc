@@ -4,7 +4,7 @@
   "description": "An xPack that installs the binary files for GNU MCU Eclipse RISC-V GCC",
   "main": "",
   "scripts": {
-    "prepublishOnly": "standard && npm run test-tap -s",
+    "prepublishOnly": "standard",
     "fix": "standard --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
