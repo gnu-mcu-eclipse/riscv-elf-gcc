@@ -46,7 +46,7 @@ $ xpm uninstall @gnu-mcu-eclipse/riscv-none-gcc --global
 ### Git repo
 
 ```console
-$ git clone https://github.com/nu-mcu-eclipse/riscv-none-gcc-xpack.git riscv-none-gcc-xpack.git
+$ git clone https://github.com/gnu-mcu-eclipse/riscv-none-gcc-xpack.git riscv-none-gcc-xpack.git
 ```
 
 ### Toolchain binaries
