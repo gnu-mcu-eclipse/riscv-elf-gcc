@@ -43,61 +43,61 @@
   "xpack": {
     "binaries": {
       "destination": "./.content",
-      "baseUrl": "https://github.com/gnu-mcu-eclipse/riscv-none-gcc/releases/download/v7.1.1-2-20170912/",
+      "baseUrl": "https://github.com/gnu-mcu-eclipse/riscv-none-gcc/releases/tag/v7.2.0-1-20171109",
       "skip": 3,
       "platforms": {
-        "darwin-x64": {
-          "fileName": "gnu-mcu-eclipse-riscv-none-gcc-7.1.1-2-20170912-2255-osx.tgz",
-          "sha256": "95c96df560f9fa4e21e9378b7ccbc94ea09bb3a250273a720e90ad3044351f93"
-        },
         "linux-x86": {
-          "fileName": "gnu-mcu-eclipse-riscv-none-gcc-7.1.1-2-20170912-2255-debian32.tgz",
-          "sha256": "424a4b7bbef59c4fa59e2103760ffc7e809f2d0fff44af80719a98c20d1cf874"
+          "sha256": "76456d07cd5c2a5984dbcf9f1fb73ac3e5f2399a6b8db13bffd8516cfa934483",
+          "fileName": "gnu-mcu-eclipse-riscv-none-gcc-7.2.0-1-20171109-1926-debian32.tgz"
         },
         "linux-x64": {
-          "fileName": "gnu-mcu-eclipse-riscv-none-gcc-7.1.1-2-20170912-2255-debian64.tgz",
-          "sha256": "8c4b7edcd312dbf3a3dcab975c3237e78e59d96eb5a8342bb4ac5f74a9e7cd53"
+          "sha256": "bc1686df845f95e2e6178a6ce611ae178bced496fd221093f520d1b80fcbb057",
+          "fileName": "gnu-mcu-eclipse-riscv-none-gcc-7.2.0-1-20171109-1926-debian64.tgz"
+        },
+        "darwin-x64": {
+          "sha256": "417ccec04684b28b5173a251d873b6ec2d1523ed53665efa551a643a32b9c0a9",
+          "fileName": "gnu-mcu-eclipse-riscv-none-gcc-7.2.0-1-20171109-1926-osx.tgz"
         },
         "win32-x86": {
-          "fileName": "gnu-mcu-eclipse-riscv-none-gcc-7.1.1-2-20170912-2255-win32.zip",
-          "sha256": "c03585471ad042a7033f099e97eb50b965bcc90e134e12891bd6efac9d5d6b7a"
+          "sha256": "4d5024e3c2ab0d3062d7e2c23fa97ddef546cc9e4b90ef4c2cb8e596817b2d0d",
+          "fileName": "gnu-mcu-eclipse-riscv-none-gcc-7.2.0-1-20171109-1926-win32.zip"
         },
         "win32-x64": {
-          "fileName": "gnu-mcu-eclipse-riscv-none-gcc-7.1.1-2-20170912-2255-win64.zip",
-          "sha256": "543bcdb133ed6ca9157377ae8bee564e385ce5ccc0e46b8b2c5946982f50e864"
+          "sha256": "a5d21ecd039c6050a2a05ba9704cfca96880df47ac0d9e208780c461611c5a71",
+          "fileName": "gnu-mcu-eclipse-riscv-none-gcc-7.2.0-1-20171109-1926-win64.zip"
         }
       }
     },
     "bin": {
-      "riscv64-unknown-elf-addr2line": "./.content/bin/riscv64-unknown-elf-addr2line",
-      "riscv64-unknown-elf-ar": "./.content/bin/riscv64-unknown-elf-ar",
-      "riscv64-unknown-elf-as": "./.content/bin/riscv64-unknown-elf-as",
-      "riscv64-unknown-elf-c++": "./.content/bin/riscv64-unknown-elf-c++",
-      "riscv64-unknown-elf-c++filt": "./.content/bin/riscv64-unknown-elf-c++filt",
-      "riscv64-unknown-elf-cpp": "./.content/bin/riscv64-unknown-elf-cpp",
-      "riscv64-unknown-elf-elfedit": "./.content/bin/riscv64-unknown-elf-elfedit",
-      "riscv64-unknown-elf-g++": "./.content/bin/riscv64-unknown-elf-g++",
-      "riscv64-unknown-elf-gcc": "./.content/bin/riscv64-unknown-elf-gcc",
-      "riscv64-unknown-elf-gcc-7.1.1": "./.content/bin/riscv64-unknown-elf-gcc-7.1.1",
-      "riscv64-unknown-elf-gcc-ar": "./.content/bin/riscv64-unknown-elf-gcc-ar",
-      "riscv64-unknown-elf-gcc-nm": "./.content/bin/riscv64-unknown-elf-gcc-nm",
-      "riscv64-unknown-elf-gcc-ranlib": "./.content/bin/riscv64-unknown-elf-gcc-ranlib",
-      "riscv64-unknown-elf-gcov": "./.content/bin/riscv64-unknown-elf-gcov",
-      "riscv64-unknown-elf-gcov-dump": "./.content/bin/riscv64-unknown-elf-gcov-dump",
-      "riscv64-unknown-elf-gcov-tool": "./.content/bin/riscv64-unknown-elf-gcov-tool",
-      "riscv64-unknown-elf-gdb": "./.content/bin/riscv64-unknown-elf-gdb",
-      "riscv64-unknown-elf-gprof": "./.content/bin/riscv64-unknown-elf-gprof",
-      "riscv64-unknown-elf-ld": "./.content/bin/riscv64-unknown-elf-ld",
-      "riscv64-unknown-elf-ld.bfd": "./.content/bin/riscv64-unknown-elf-ld.bfd",
-      "riscv64-unknown-elf-nm": "./.content/bin/riscv64-unknown-elf-nm",
-      "riscv64-unknown-elf-objcopy": "./.content/bin/riscv64-unknown-elf-objcopy",
-      "riscv64-unknown-elf-objdump": "./.content/bin/riscv64-unknown-elf-objdump",
-      "riscv64-unknown-elf-ranlib": "./.content/bin/riscv64-unknown-elf-ranlib",
-      "riscv64-unknown-elf-readelf": "./.content/bin/riscv64-unknown-elf-readelf",
-      "riscv64-unknown-elf-run": "./.content/bin/riscv64-unknown-elf-run",
-      "riscv64-unknown-elf-size": "./.content/bin/riscv64-unknown-elf-size",
-      "riscv64-unknown-elf-strings": "./.content/bin/riscv64-unknown-elf-strings",
-      "riscv64-unknown-elf-strip": "./.content/bin/riscv64-unknown-elf-strip"
+      "riscv-none-embed-addr2line": "./.content/bin/riscv-none-embed-addr2line",
+      "riscv-none-embed-ar": "./.content/bin/riscv-none-embed-ar",
+      "riscv-none-embed-as": "./.content/bin/riscv-none-embed-as",
+      "riscv-none-embed-c++": "./.content/bin/riscv-none-embed-c++",
+      "riscv-none-embed-c++filt": "./.content/bin/riscv-none-embed-c++filt",
+      "riscv-none-embed-cpp": "./.content/bin/riscv-none-embed-cpp",
+      "riscv-none-embed-elfedit": "./.content/bin/riscv-none-embed-elfedit",
+      "riscv-none-embed-g++": "./.content/bin/riscv-none-embed-g++",
+      "riscv-none-embed-gcc": "./.content/bin/riscv-none-embed-gcc",
+      "riscv-none-embed-gcc-7.1.1": "./.content/bin/riscv-none-embed-gcc-7.1.1",
+      "riscv-none-embed-gcc-ar": "./.content/bin/riscv-none-embed-gcc-ar",
+      "riscv-none-embed-gcc-nm": "./.content/bin/riscv-none-embed-gcc-nm",
+      "riscv-none-embed-gcc-ranlib": "./.content/bin/riscv-none-embed-gcc-ranlib",
+      "riscv-none-embed-gcov": "./.content/bin/riscv-none-embed-gcov",
+      "riscv-none-embed-gcov-dump": "./.content/bin/riscv-none-embed-gcov-dump",
+      "riscv-none-embed-gcov-tool": "./.content/bin/riscv-none-embed-gcov-tool",
+      "riscv-none-embed-gdb": "./.content/bin/riscv-none-embed-gdb",
+      "riscv-none-embed-gprof": "./.content/bin/riscv-none-embed-gprof",
+      "riscv-none-embed-ld": "./.content/bin/riscv-none-embed-ld",
+      "riscv-none-embed-ld.bfd": "./.content/bin/riscv-none-embed-ld.bfd",
+      "riscv-none-embed-nm": "./.content/bin/riscv-none-embed-nm",
+      "riscv-none-embed-objcopy": "./.content/bin/riscv-none-embed-objcopy",
+      "riscv-none-embed-objdump": "./.content/bin/riscv-none-embed-objdump",
+      "riscv-none-embed-ranlib": "./.content/bin/riscv-none-embed-ranlib",
+      "riscv-none-embed-readelf": "./.content/bin/riscv-none-embed-readelf",
+      "riscv-none-embed-run": "./.content/bin/riscv-none-embed-run",
+      "riscv-none-embed-size": "./.content/bin/riscv-none-embed-size",
+      "riscv-none-embed-strings": "./.content/bin/riscv-none-embed-strings",
+      "riscv-none-embed-strip": "./.content/bin/riscv-none-embed-strip"
     }
   }
 }
