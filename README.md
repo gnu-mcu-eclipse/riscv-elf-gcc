@@ -53,38 +53,13 @@ $ git clone https://github.com/gnu-mcu-eclipse/riscv-none-gcc-xpack.git riscv-no
 
 The binaries are downloaded from the [gnu-mcu-eclipse/riscv-none-gcc](https://github.com/gnu-mcu-eclipse/riscv-none-gcc) [releases](https://github.com/gnu-mcu-eclipse/riscv-none-gcc/releases) project.
 
-### Standard compliance
+### Code standard compliance
 
-The module uses ECMAScript 6 class definitions.
+The module currently does not include any JavaScript code.
 
-As style, it uses the [JavaScript Standard Style](https://standardjs.com/), automatically checked at each commit via Travis CI.
+### Code documentation metadata
 
-Known and accepted exceptions:
-
-- none.
-
-To manually fix compliance with the style guide (where possible):
-
-```console
-$ npm run fix
-
-> @gnu-mcu-eclipse/riscv-none-gcc@0.1.0 fix .../GNU MCU Eclipse/xpacks/riscv-none-gcc-xpack.git
-> standard --fix
-```
-
-### Documentation metadata
-
-The documentation metadata follows the [JSdoc](http://usejsdoc.org) tags.
-
-To enforce checking at file level, add the following comments right after the `use strict`:
-
-```js
-'use strict'
-/* eslint valid-jsdoc: "error" */
-/* eslint max-len: [ "error", 80, { "ignoreUrls": true } ] */
-```
-
-Note: be sure C style comments are used, C++ styles are not parsed by [ESLint](http://eslint.org).
+The module currently does not include any documentation metadata
 
 ### How to publish
 
@@ -98,5 +73,4 @@ Note: be sure C style comments are used, C++ styles are not parsed by [ESLint](h
 
 ## License
 
-The original content is released under the [MIT License](https://opensource.org/licenses/MIT), with
-all rights reserved to Liviu Ionescu.
+The original content is released under the [MIT License](https://opensource.org/licenses/MIT), with all rights reserved to [Liviu Ionescu](https://github.com/ilg-ul).
