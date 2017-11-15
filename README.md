@@ -25,7 +25,7 @@ On Windows, global `npm` packages are installed in the user home folder, and do 
 
 ## Easy install
 
-The module is available as [**gnu-mcu-eclipse/riscv-none-gcc**](https://www.npmjs.com/package/gnu-mcu-eclipse/riscv-none-gcc) from the public repository; with `npm` already available, installing `xsvd` is quite easy:
+The module is available as [**gnu-mcu-eclipse/riscv-none-gcc**](https://www.npmjs.com/package/gnu-mcu-eclipse/riscv-none-gcc) from the public repository; with `npm` already available, installing the toolchain is quite easy:
 
 ```console
 $ xpm install @gnu-mcu-eclipse/riscv-none-gcc --global
