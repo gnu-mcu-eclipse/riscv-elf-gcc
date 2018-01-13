@@ -43,28 +43,28 @@
   "xpack": {
     "binaries": {
       "destination": "./.content",
-      "baseUrl": "https://github.com/gnu-mcu-eclipse/riscv-none-gcc/releases/download/v7.2.0-1-20171109",
+      "baseUrl": "https://github.com/gnu-mcu-eclipse/riscv-none-gcc/releases/download/v7.2.0-2-20180110",
       "skip": 3,
       "platforms": {
         "linux-x86": {
-          "sha256": "76456d07cd5c2a5984dbcf9f1fb73ac3e5f2399a6b8db13bffd8516cfa934483",
-          "fileName": "gnu-mcu-eclipse-riscv-none-gcc-7.2.0-1-20171109-1926-debian32.tgz"
+          "sha256": "dd4dddb50bed32d17962fec44e8c4a5d6f038f28bc967263ce3d2da84ee86412",
+          "fileName": "gnu-mcu-eclipse-riscv-none-gcc-7.2.0-2-20180111-2230-centos32.tgz"
         },
         "linux-x64": {
-          "sha256": "bc1686df845f95e2e6178a6ce611ae178bced496fd221093f520d1b80fcbb057",
-          "fileName": "gnu-mcu-eclipse-riscv-none-gcc-7.2.0-1-20171109-1926-debian64.tgz"
+          "sha256": "59c85a06c17e9c6942185b60fc105dd77f1c67c04e3fd5fe6de325be7bdf0c97",
+          "fileName": "gnu-mcu-eclipse-riscv-none-gcc-7.2.0-2-20180111-2230-centos64.tgz"
         },
         "darwin-x64": {
-          "sha256": "417ccec04684b28b5173a251d873b6ec2d1523ed53665efa551a643a32b9c0a9",
-          "fileName": "gnu-mcu-eclipse-riscv-none-gcc-7.2.0-1-20171109-1926-osx.tgz"
+          "sha256": "97b3bb5f77656f48010b833424f7b08f27cb54db0cab2b4366d4ff0726e31a4a",
+          "fileName": "gnu-mcu-eclipse-riscv-none-gcc-7.2.0-2-20180111-2230-osx.tgz"
         },
         "win32-x86": {
-          "sha256": "4d5024e3c2ab0d3062d7e2c23fa97ddef546cc9e4b90ef4c2cb8e596817b2d0d",
-          "fileName": "gnu-mcu-eclipse-riscv-none-gcc-7.2.0-1-20171109-1926-win32.zip"
+          "sha256": "884f94156612bf01e69c6e5f209ee4460c46f275f4127120eaf102a919fa55f2",
+          "fileName": "gnu-mcu-eclipse-riscv-none-gcc-7.2.0-2-20180111-2230-win32.zip"
         },
         "win32-x64": {
-          "sha256": "a5d21ecd039c6050a2a05ba9704cfca96880df47ac0d9e208780c461611c5a71",
-          "fileName": "gnu-mcu-eclipse-riscv-none-gcc-7.2.0-1-20171109-1926-win64.zip"
+          "sha256": "251cbd8d446a36c62bcafe6d2daa88d8972c70d8b8aecd2b1eecac601c08239a",
+          "fileName": "gnu-mcu-eclipse-riscv-none-gcc-7.2.0-2-20180111-2230-win64.zip"
         }
       }
     },
@@ -78,7 +78,7 @@
       "riscv-none-embed-elfedit": "./.content/bin/riscv-none-embed-elfedit",
       "riscv-none-embed-g++": "./.content/bin/riscv-none-embed-g++",
       "riscv-none-embed-gcc": "./.content/bin/riscv-none-embed-gcc",
-      "riscv-none-embed-gcc-7.1.1": "./.content/bin/riscv-none-embed-gcc-7.1.1",
+      "riscv-none-embed-gcc-7.2.0": "./.content/bin/riscv-none-embed-gcc-7.2.0",
       "riscv-none-embed-gcc-ar": "./.content/bin/riscv-none-embed-gcc-ar",
       "riscv-none-embed-gcc-nm": "./.content/bin/riscv-none-embed-gcc-nm",
       "riscv-none-embed-gcc-ranlib": "./.content/bin/riscv-none-embed-gcc-ranlib",

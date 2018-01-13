@@ -2,6 +2,10 @@
 
 Changes in reverse chronological order.
 
+### v7.2.0-2.1 (2018-01-13)
+
+* package.json: update for 7.2.0-2
+
 ### v7.2.0-1.2 (2017-11-13)
 
 * package.json: fix baseUrl

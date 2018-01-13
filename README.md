@@ -63,12 +63,12 @@ The module currently does not include any documentation metadata
 
 ### How to publish
 
-* commit all changes
-* `npm run test` (`fix` included)
-* update `CHANGELOG.md`; commit with a message like _CHANGELOG: prepare v0.1.2_
-* `npm version patch`
-* push all changes to GitHub; this should trigger CI
-* wait for CI tests to complete
+* open [releases](https://github.com/gnu-mcu-eclipse/riscv-none-gcc/releases) and select the latest release
+* update the `baseUrl:` with the file URLs (including the tag/version)
+* from the blog post, copy the SHA & file names
+* commit all changes, use a message like `7.2.0-1.2` (without `v`)
+* `npm version 7.2.0-1.2`
+* push all changes to GitHub
 * `npm publish`
 
 ## License
