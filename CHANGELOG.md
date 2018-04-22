@@ -2,6 +2,8 @@
 
 Changes in reverse chronological order.
 
+### v7.2.0-2.3 (2018-04-22)
+
 ### v7.2.0-2.2 (2018-04-22)
 
 - add DLL copy
