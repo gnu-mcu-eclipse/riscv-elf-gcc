@@ -1,12 +1,10 @@
 {
   "name": "@gnu-mcu-eclipse/riscv-none-gcc",
   "version": "7.2.0-2.1",
-  "description": "An xPack that installs the binary files for GNU MCU Eclipse RISC-V GCC",
+  "description": "An xPack which installs the binary files for GNU MCU Eclipse RISC-V GCC",
   "main": "",
   "scripts": {
-    "prepublishOnly": "standard && npm run test",
-    "fix": "standard --fix",
-    "test": "standard && echo \"Nothing to tests for now...\""
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -32,7 +30,6 @@
   "config": {},
   "dependencies": {},
   "devDependencies": {
-    "standard": "~10.0.3"
   },
   "peerDependencies": {},
   "bundledDependencies": [],
