@@ -18,7 +18,7 @@ This section is intended for developers who plan to use the RISC-V Embedded GCC 
 A recent [`xpm`](https://www.npmjs.com/package/xpm), which is a 
 portable [Node.js](https://nodejs.org/) command line application.
 
-## Easy install
+### Easy install
 
 The module is available as [`@gnu-mcu-eclipse/riscv-none-gcc`](https://www.npmjs.com/package/gnu-mcu-eclipse/riscv-none-gcc) from the `npmjs.com` registry; with `xpm` available, installing the latest version of the package is quite easy:
 
@@ -38,7 +38,9 @@ $ xpm uninstall @gnu-mcu-eclipse/riscv-none-gcc --global
 
 ## Developer info
 
-### Git repo
+### xPack git repo
+
+The few xPack source files are available from GitHub:
 
 ```console
 $ git clone https://github.com/gnu-mcu-eclipse/riscv-none-gcc-xpack.git riscv-none-gcc-xpack.git
@@ -47,14 +49,6 @@ $ git clone https://github.com/gnu-mcu-eclipse/riscv-none-gcc-xpack.git riscv-no
 ### Toolchain binaries
 
 The binaries are downloaded from the [gnu-mcu-eclipse/riscv-none-gcc](https://github.com/gnu-mcu-eclipse/riscv-none-gcc) [releases](https://github.com/gnu-mcu-eclipse/riscv-none-gcc/releases) project.
-
-### Code standard compliance
-
-The module currently does not include any JavaScript code.
-
-### Code documentation metadata
-
-The module currently does not include any documentation metadata
 
 ## Maintainer info
 
@@ -71,3 +65,7 @@ The module currently does not include any documentation metadata
 ## License
 
 The original content is released under the [MIT License](https://opensource.org/licenses/MIT), with all rights reserved to [Liviu Ionescu](https://github.com/ilg-ul).
+
+The binary distributions include several open-source components; the
+corresponding licenses are available in the `gnu-mcu-eclipse/licenses`
+folder.
