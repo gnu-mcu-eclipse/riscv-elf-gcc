@@ -19,16 +19,17 @@ RISC-V Embedded GCC toolchain.
 
 ### Prerequisites
 
-On all platforms, all is needed is a recent 
-[`xpm`](https://www.npmjs.com/package/xpm), which is a portable 
-[Node.js](https://nodejs.org) command line application. To install 
-`xpm`, follow the instructions from the 
+The only requirement is a recent 
+`xpm`, which is a portable 
+[Node.js](https://nodejs.org) command line application. To install it,
+follow the instructions from the 
 [`xpm`](https://www.npmjs.com/package/xpm) page.
 
 ### Easy install
 
-The package is available as [`@gnu-mcu-eclipse/riscv-none-gcc`](https://www.npmjs.com/package/gnu-mcu-eclipse/riscv-none-gcc)
-from the `npmjs.com` repository; with `xpm` available, installing 
+The xPack is available as 
+[`@gnu-mcu-eclipse/riscv-none-gcc`](https://www.npmjs.com/package/gnu-mcu-eclipse/riscv-none-gcc)
+from the public `npmjs.com` repository; with `xpm` available, installing 
 the latest version of the package is quite easy:
 
 ```console
@@ -51,7 +52,7 @@ $ xpm uninstall @gnu-mcu-eclipse/riscv-none-gcc --global
 
 ## Developer info
 
-### xPack git repo
+### The xPack git repo
 
 The few xPack source files are available from GitHub:
 
@@ -59,7 +60,7 @@ The few xPack source files are available from GitHub:
 $ git clone https://github.com/gnu-mcu-eclipse/riscv-none-gcc-xpack.git riscv-none-gcc-xpack.git
 ```
 
-### Toolchain binaries
+### Binary files
 
 The binaries are not stored on the `npmjs.com` server, but are downloaded from  
 the [releases](https://github.com/gnu-mcu-eclipse/riscv-none-gcc/releases) 
