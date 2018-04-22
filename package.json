@@ -75,7 +75,6 @@
       "riscv-none-embed-elfedit": "./.content/bin/riscv-none-embed-elfedit",
       "riscv-none-embed-g++": "./.content/bin/riscv-none-embed-g++",
       "riscv-none-embed-gcc": "./.content/bin/riscv-none-embed-gcc",
-      "riscv-none-embed-gcc-7.2.0": "./.content/bin/riscv-none-embed-gcc-7.2.0",
       "riscv-none-embed-gcc-ar": "./.content/bin/riscv-none-embed-gcc-ar",
       "riscv-none-embed-gcc-nm": "./.content/bin/riscv-none-embed-gcc-nm",
       "riscv-none-embed-gcc-ranlib": "./.content/bin/riscv-none-embed-gcc-ranlib",
