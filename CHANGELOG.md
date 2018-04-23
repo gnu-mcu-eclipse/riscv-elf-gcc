@@ -2,6 +2,10 @@
 
 Changes in reverse chronological order.
 
+### v7.2.0-2.4 (2018-04-24)
+
+- package.json: remove DLL links (no longer needed since xpm 0.4.x)
+
 ### v7.2.0-2.3 (2018-04-22)
 
 - README update
