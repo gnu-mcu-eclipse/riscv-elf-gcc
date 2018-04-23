@@ -92,15 +92,7 @@
       "riscv-none-embed-run": "./.content/bin/riscv-none-embed-run",
       "riscv-none-embed-size": "./.content/bin/riscv-none-embed-size",
       "riscv-none-embed-strings": "./.content/bin/riscv-none-embed-strings",
-      "riscv-none-embed-strip": "./.content/bin/riscv-none-embed-strip",
-      "libwinpthread-1.dll": {
-        "path": "./.content/bin/libwinpthread-1.dll",
-        "type": "copy"
-      },
-      "libgcc_s_seh-1.dll": {
-        "path": "./.content/bin/libgcc_s_seh-1.dll",
-        "type": "copy"
-      }
+      "riscv-none-embed-strip": "./.content/bin/riscv-none-embed-strip"
     }
   }
 }
