@@ -2,6 +2,10 @@
 
 Changes in reverse chronological order.
 
+### v7.2.0-4.1 (2018-06-06)
+
+- package.json: update for 7.2.0-4
+
 ### v7.2.0-3.1 (2018-05-06)
 
 - package.json: update for 7.2.0-3
