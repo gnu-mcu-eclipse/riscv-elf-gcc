@@ -2,6 +2,10 @@
 
 Changes in reverse chronological order.
 
+### v8.1.0-2.1 (2018-10-19)
+
+- package.json: update for 8.1.0-2 (8.1.0-1 skipped)
+
 ### v7.2.0-4.1 (2018-06-06)
 
 - package.json: update for 7.2.0-4
