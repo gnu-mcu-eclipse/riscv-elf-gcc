@@ -48,7 +48,9 @@ To remove the installed xPack, the command is similar:
 $ xpm uninstall @gnu-mcu-eclipse/riscv-none-gcc --global
 ```
 
-(Note: not yet implemented)
+(Note: not yet implemented. As a temporary workaround, simply remove the 
+`xPacks/@gnu-mcu-eclipse/riscv-none-gcc` folder, or the versions subfolders.)
+
 
 ## Developer info
 
